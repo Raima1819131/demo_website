@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .head{
+    display: flex;
+    background-color: rgb(154, 209, 211);
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+} 
+#gro{
+    width: 25%;
+}
+#deal{
+    width: 25%;
+}
+#sl{
+    width: 25%;
+}
+#cart{
+    width: 25%;
+}
+.iconB{
+    padding: 5px 100px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(89, 153, 155);
+}
+.iconB:hover{
+    background-color: rgb(125, 182, 184);
+}
+.ads{
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(196, 236, 237), rgb(169, 216, 218), rgb(182, 237, 238));
+}
+.slider {
+    position: relative;
+    width: 90%;
+    height: 300px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.slides {
+    display: flex;
+    width: 300%;
+    height: 100%;
+    animation: slideAnimation 20s infinite;
+}
+.slide {
+    width: 300%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0%);
+    }
+    65% {
+        transform: translateX(-65%);
+    }
+    65% {
+        transform: translateX(-65%);
+    }
+    0% {
+        transform: translateX(0%);
+    }
+}
+.sponsor_ads {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    background-color: antiquewhite;
+}
+
+@media (max-width: 768px) {
+    .s1, .s2, .s3 {
+      width: 30%;
+      padding: 10px;
+    }
+  
+    .sponsor-ad img {
+      width: 30%;
+      height: auto;
+    }
+}
+.tail{
+    display: flex;
+    background-color: rgb(24, 105, 108);
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+} 
+#home{
+    width: 20%;
+}
+#you{
+    width: 20%;
+}
+#more{
+    width: 20%;
+}
+#cart{
+    width: 20%;
+}
+#menu{
+    width: 20%;
+}
+.FooterB{
+    padding: 5px 100px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(126, 177, 179);
+}
+.FooterB:hover{
+    background-color: rgb(90, 189, 193);
+}
